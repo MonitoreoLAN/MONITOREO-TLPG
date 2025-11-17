@@ -48,14 +48,21 @@ Sistema Operativo Windows
    
        virtualenv .venv
 
-       
+ Sistema Operativo  Raspbian (instalar OpenCV compatible con tu versión de Python)
+
+       sudo apt-get install python3-opencv -y
+ Cuando creas tu virtualenv, usa la opción --system-site-packages:     
+
+        python3 -m venv venv --system-site-packages
+
+  
 6.- Activar el entorno virtual con el siguiente comando:
 
  Sistema Operativo Windows
  
          .\.venv\Scripts\activate
          
- Sistema Operativo  Linux     
+ Sistema Operativo  Linux  Y Raspbian 
  
           source .venv/bin/activate
    ```Actualizar PIP```
