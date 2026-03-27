@@ -25,7 +25,7 @@ Los siguientes ajustes deberán realizarse para la configuración:
 3.- Clonar el repositorio
     apt install git
     
-    git clone https://github.com/MonitoreoLAN/MONITOREO-TLPG.git 
+    git clone https://gitlab.telconet.ec/dibanez/monitoreo.git
 
 
 
